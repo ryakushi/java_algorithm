@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -33,7 +32,7 @@ public class Main {
     int ans = 0;
     for (int i = 0; i < stuNum; i++) {
       HashSet<String> colors = studentColors.get(i); // 生徒 i の好きな色を取得
-      if (colors.contains(colorText)) { // 生徒 i が色 colorTextを好きかチェック 
+      if (colors.contains(colorText)) { // 生徒 i が色 colorTextを好きかチェック
         ans++; // 色colorText を好きな生徒がいた場合、答えに加算
       }
     }
