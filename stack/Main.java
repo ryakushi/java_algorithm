@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> dev
 import java.util.Scanner;
 
 public class Main {
