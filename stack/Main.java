@@ -1,5 +1,3 @@
-package stack;
-
 import java.util.Scanner;
 
 public class Main {
