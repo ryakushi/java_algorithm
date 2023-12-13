@@ -1,13 +1,17 @@
 public class Node {
 
-  Node next;
+  int next;
   String data;
 public Node pre;
-public Node prev;
+public int prev;
 public String value;
 
-  Node(String data) {
+  Node(int i) {
     this.next = null;
-    this.data = data;
+    this.data = i;
   }
+
+public Node(int i) {
+    //TODO Auto-generated constructor stub
+}
 }

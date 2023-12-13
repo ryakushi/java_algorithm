@@ -1,4 +1,4 @@
-package mamakodate2;
+
 
 // import java.util.Scanner;
 

@@ -1,5 +1,3 @@
-package EscapeGame;
-
 import java.util.Scanner;
 
 public class Escape {

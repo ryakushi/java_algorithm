@@ -30,7 +30,7 @@ public class Main {
         int r = sc.nextInt(); // ノードr
 
         // rの前後のノードを取得
-        int prev = nodes[r].prev;
+        int prev = (int) nodes[r].prev;
         int next = nodes[r].next;
 
         if (next != -1) {
